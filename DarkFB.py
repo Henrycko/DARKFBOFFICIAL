@@ -1,4 +1,5 @@
-# coding=utf-8# Powered by Henrycko Codereal
+# coding=utf-8
+# Powered by Henrycko Codereal
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
 from multiprocessing.pool import ThreadPool
