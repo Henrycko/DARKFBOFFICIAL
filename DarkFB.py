@@ -41,7 +41,7 @@ logo = """\033[1;97m█████████
 \033[1;97m█▄█████▄█      \033[1;96m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
 \033[1;97m█\033[1;91m▼▼▼▼▼ \033[1;97m- _ --_--\033[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ 
 \033[1;97m█ \033[1;97m \033[1;97m_-_-- -_ --__\033[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
-\033[1;97m█\033[1;91m▲▲▲▲▲\033[1;97m--  - _ --\033[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;93mORIGINAL
+\033[1;97m█\033[1;91m▲▲▲▲▲\033[1;97m--  - _ --\033[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;93mOfficial
 \033[1;97m█████████      \033[1;96m«°°°°°°°°°°✧°°°°°°°°°°»
 \033[1;97m ██ ██
 \033[1;97m╔════════════════════════════════════════╗
@@ -117,7 +117,7 @@ def login():
 		pwd = getpass.getpass('\033[1;91m[+] \033[1;36mPassword \033[1;91m:\033[1;92m ')
 		tik()
 		try:
-			br.open('https://mbasic.facebook.com')
+			br.open('https://free.facebook.com')
 		except mechanize.URLError:
 			print"\n\033[1;91m[!] No connection"
 			keluar()
@@ -257,7 +257,7 @@ def pilih():
 		os.remove('out')
 	elif zedd =="9":
 		os.system('rm -rf login.txt')
-		os.system('xdg-open https://www.facebook.com/Henrycko.xyz')
+		os.system('xdg-open https://free.facebook.com/Henrycko.xyz')
 		keluar()
 	elif zedd =="0":
 		keluar()
