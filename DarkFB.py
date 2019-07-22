@@ -117,7 +117,7 @@ def login():
 		pwd = getpass.getpass('\033[1;91m[+] \033[1;36mPassword \033[1;91m:\033[1;92m ')
 		tik()
 		try:
-			br.open('https://mbasic.facebook.com')
+			br.open('https://m.facebook.com')
 		except mechanize.URLError:
 			print"\n\033[1;91m[!] No connection"
 			keluar()
@@ -257,7 +257,7 @@ def pilih():
 		os.remove('out')
 	elif zedd =="9":
 		os.system('rm -rf login.txt')
-		os.system('xdg-open https://mbasic.facebook.com/Henrycko.xyz')
+		os.system('xdg-open https://m.facebook.com/Henrycko.xyz')
 		keluar()
 	elif zedd =="0":
 		keluar()
