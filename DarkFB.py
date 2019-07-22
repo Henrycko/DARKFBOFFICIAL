@@ -78,6 +78,7 @@ komengrup = []
 listgrup = []
 vulnot = "\033[31mValid"
 vuln = "\033[32mVuln"
+max = "400"
 
 ##### Pilih Login #####
 def masuk():
