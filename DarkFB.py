@@ -21,7 +21,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.1288.423 Version/12.16')]
+br.addheaders = [('User-Agent','Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
 #-Keluar-#
 def keluar():
@@ -34,8 +34,7 @@ def jalan(z):
                 sys.stdout.write(e)
                 sys.stdout.flush()
                 time.sleep(00000.1)
-	
-		
+			
 ##### LOGO #####
 logo = """\033[1;97m█████████
 \033[1;97m█▄█████▄█      \033[1;96m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
